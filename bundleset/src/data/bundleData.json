@@ -1,0 +1,147 @@
+{
+  "bundle": {
+    "id": "fun-start",
+    "title": "Fun Start",
+    "description": "Think colorful toys, creative play zones, and everything you need for a fun-packed celebration — without the stress!",
+    "currency": "₹",
+    "isPremium": true,
+    "premiumLabel": "Premium international product",
+    "selectText": "Select any 6",
+    "discountBanner": "FIRSTIO: 10% DISCOUNT ON ALL PRODUCT FOR FIRST TIME USER",
+    "secretDiscount": "Shh!! Grab an extra 10 % discount by Unchecking the Party area assitant",
+    "breadcrumb": "Home>shop> product",
+    "mainImage": "../../../public/img/banner-upper.png",
+    "items": [
+      { "name": "Senior Slide", "expandable": true },
+      { "name": "Ball Pool (4.5ft wide approx)", "expandable": true },
+      { "name": "Swing", "expandable": true },
+      { "name": "Trampoline", "expandable": true },
+      { "name": "Roller Coaster", "expandable": true },
+      { "name": "Coupe Car", "expandable": true },
+      { "name": "Basketball", "expandable": true },
+      { "name": "Set of 4 chairs", "expandable": true }
+    ],
+    "addOns": [
+      {
+        "id": "mats",
+        "name": "Add Mats",
+        "type": "mat",
+        "desc": "To ensure a safe and worry-free play experience, we strongly recommend",
+        "img": "../../../public/img/mat.png",
+        "price": "₹690",
+        "selectedSize": "",
+        "selected": false
+      },
+      {
+        "id": "sitting",
+        "name": "Add Kids Sitting",
+        "type": "kids_sitting",
+        "desc": "Includes 1 sturdy table and 4 child-sized chairs",
+        "selected": false,
+        "variants": [
+          {
+            "id": "ikea",
+            "name": "Ikea Table & Chair",
+            "dimension": "36x24x20 inch",
+            "marketPrice": "₹1200",
+            "rentalPrice": "₹500",
+            "image": "../../../public/img/ikea.png",
+            "qty": 1
+          },
+          {
+            "id": "colourful",
+            "name": "Colourful Table & Chair",
+            "dimension": "60x60x53 cm",
+            "marketPrice": "₹1200",
+            "rentalPrice": "₹500",
+            "image": "../../../public/img/colorful.png",
+            "qty": 1
+          },
+          {
+            "id": "white",
+            "name": "White Table & Chair",
+            "dimension": "36x24x20 inch",
+            "marketPrice": "₹1200",
+            "rentalPrice": "₹500",
+            "image": "../../../public/img/white.png",
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "id": "assistant",
+        "type": "assistant",
+        "name": "Add Play-area Assistant",
+        "desc": "A Play Area Assistant is a trained team member who stays during your event to help keep kids safe. Required if no adult supervision is available.",
+        "note": "If you don’t have a party area assistant, we charge an additional 25% completely refundable security deposit.",
+        "image": "../../../public/img/assistant.png"
+      }
+    ],
+    "formFields": [
+      { "id": "city", "label": "Select City", "type": "dropdown" },
+      { "id": "date", "label": "Select Date", "type": "dropdown" },
+      { "id": "time", "label": "Time", "type": "dropdown" },
+      { "id": "remarks", "label": "Add any Remarks", "type": "textarea", "optional": true }
+    ]
+  },
+  "infoSections": [
+    {
+      "title": "Everything You Need to Know. No Surprises, Just Play!",
+      "subtitle": "Playtime ,Charges & Shipping Info",
+      "items": [
+        {
+          "title": "Security Deposit Info",
+          "content": "No deposit for regular play area packages.\nDeposit applies only to Assistant free Playareas.\nFully refundable unless:\n• Permanent stains/marks\n• Broken/missing parts",
+          "image": "../../../public/img/1.png"
+        },
+        {
+          "title": "All Prices Are Inclusive – No Hidden Fees!",
+          "content": "GST is already included. We do not charge anything extra.",
+          "image": "../../../public/img/2.png"
+        },
+        {
+          "title": "Delivery & Set-Up:",
+          "content": "We may deliver earlier in the day to optimize routes. Set-up will be completed\nwell before your event begins!.",
+          "image": "../../../public/img/3.png"
+        }
+      ]
+    }
+  ],
+  "whyChooseUs": {
+    "title": "Why choose us!",
+    "features": [
+      {
+        "title": "One-Stop\nConvenience",
+        "icon": "../../../public/img/layer-1.svg",
+        "bgColor": "#0da88e"
+      },
+      {
+        "title": "Timely Delivery &\nHassle-Free Pickup",
+        "icon": "../../../public/img/express-delivery-1.png",
+        "bgColor": "#e3624a"
+      },
+      {
+        "title": "Clean & Sanitized Toys",
+        "icon": "../../../public/img/image-75.png",
+        "bgColor": "#e5d12e",
+        "textColor": "black"
+      },
+      {
+        "title": "Any Questions?\nContact us!",
+        "icon": "../../../public/img/questions--1--1.png",
+        "bgColor": "#c5ecf4",
+        "textColor": "black"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Party area gallery",
+    "subtitle": "Take a look at a few set-ups we've done!",
+    "images": [
+      "../../../public/img/4.png",
+      "../../../public/img/5.png",
+      "../../../public/img/6.png",
+      "../../../public/img/7.png"
+    ]
+  }
+}
